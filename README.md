@@ -13,5 +13,12 @@ docker build . -t suse12-elixir
 ## Using
 
 ```bash
-docker run -it -e 'MIX_ENV=prod' --rm -v "/your/elixir/app:/code" suse12-elixir:1.3.4 mix release --env=prod
+docker run -it -e 'MIX_ENV=prod' --rm -v "/your/elixir/app:/code" mjquinlan2000/suse12-elixir:latest mix release --env=prod
+```
+
+Alternatively, to get an iex shell, you can run:
+
+
+```bash
+docker run -it --rm mjquinlan2000/suse12-elixir:latest
 ```
