@@ -9,7 +9,7 @@ run zypper ar http://download.opensuse.org/repositories/devel:/languages:/erlang
   cd /work && \
   git clone https://github.com/elixir-lang/elixir.git && \
   cd elixir && \
-  git checkout v1.4.1 && \
+  git checkout v1.4.2 && \
   make && \
   make install && \
   cd / && \
